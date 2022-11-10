@@ -1,5 +1,7 @@
 /* Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Chinese Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
 /* Display Font */
 @import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
 /* Free  font-awesome 6.2*/
@@ -14,42 +16,49 @@
 
 body{
     font-family: var(--default-font);
-    color: var(--primary);
-    background-color: #F9FAFF;
+    color: var(--primary) !important;
+    background-color: var(--background);
 }
 
 /* fonts */
 p .display{
+    font-family: var(--display-font);
     font-size: var(--font-size-display);
     font-weight: var(--font-weight-regular);
 }
 
 p .display-title{
+    font-family: var(--display-font);
     font-size: var(--font-size-display-title);
     font-weight: var(--font-weight-regular);
 }
 
 h1{
+    font-family: var(--default-font);
     font-size: var(--font-size-h1);
     font-weight: var(--font-weight-regular);
 }
 
 h2{
+    font-family: var(--default-font);
     font-size: var(--font-size-h2);
     font-weight: var(--font-weight-regular);
 }
 
 h3{
+    font-family: var(--default-font);
     font-size: var(--font-size-h3);
     font-weight: var(--font-weight-light);
 }
 
 p{
+    font-family: var(--default-font);
     font-size: var(--font-size-p);
     font-weight: var(--font-weight-regular);
 }
 
 p .body-light{
+    font-family: var(--default-font);
     font-size: var(--font-size-p);
     font-weight: var(--font-weight-light);
 }
@@ -62,6 +71,6 @@ a{
 
 /* icons */
 .icon{
-    height: 33px;
-    padding: 5px;
+    height: 22.05px;
+    padding: 0px 20px;
 }
