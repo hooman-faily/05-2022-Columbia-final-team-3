@@ -12,7 +12,7 @@
 @import url("../components/borders.css");
 
 body{
-    font-family: var(--defult-font);
+    font-family: var(--default-font);
     font-size: var(--font-size-defult);
     font-weight: var(--font-weight-regular);
     color: var(--color-gray-900);
