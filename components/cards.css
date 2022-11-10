@@ -1,0 +1,12 @@
+.card{
+    border: none;
+}
+
+.card span{
+    display: block;
+}
+
+.card img{
+    width: 100%;
+}
+
