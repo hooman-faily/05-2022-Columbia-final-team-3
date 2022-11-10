@@ -14,10 +14,44 @@
 
 body{
     font-family: var(--default-font);
-    font-size: var(--font-size-defult);
-    font-weight: var(--font-weight-regular);
-    color: var(--color-gray-900);
+    color: var(--primary);
     background-color: #F9FAFF;
+}
+
+/* fonts */
+p .display{
+    font-size: var(--font-size-display);
+    font-weight: var(--font-weight-regular);
+}
+
+p .display-title{
+    font-size: var(--font-size-display-title);
+    font-weight: var(--font-weight-regular);
+}
+
+h1{
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-regular);
+}
+
+h2{
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-regular);
+}
+
+h3{
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-light);
+}
+
+p{
+    font-size: var(--font-size-p);
+    font-weight: var(--font-weight-regular);
+}
+
+p .body-light{
+    font-size: var(--font-size-p);
+    font-weight: var(--font-weight-light);
 }
 
 
