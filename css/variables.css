@@ -91,8 +91,8 @@
     --border-radius-circle: 100%;
 
     /* font */
-    --display-font: 'Playfair Display', serif;
-    --defult-font:'Roboto', sans-serif;
+    --display-font: 'Cabin Sketch', cursive;
+    --default-font:'Inter', sans-serif;
     /* font size */
     --font-size-defult: 1rem;
     --font-size-small: 0.875rem;
