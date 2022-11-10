@@ -54,8 +54,14 @@ p .body-light{
     font-weight: var(--font-weight-light);
 }
 
+/* <a tag> */
+a{
+    text-decoration: none;
+    color: var(--primary);
+}
 
 /* icons */
 .icon{
     height: 33px;
+    padding: 5px;
 }
