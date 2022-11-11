@@ -1,8 +1,4 @@
-
-.dropdown-menu{
-    background-color: var(--background);
-}
-
+/* nav text */
 .nav-link.active{
     border-bottom: 2px solid var(--third);
     font-weight: var(--font-weight-bold);
@@ -17,6 +13,11 @@
 .nav-link:hover{
     border-bottom: 2px solid var(--third);
     font-weight: var(--font-weight-bold);
+}
+
+/* dropdown */
+.dropdown-menu{
+    background-color: var(--background);
 }
 
 .dropdown-item{
@@ -34,8 +35,12 @@
     border-color: var(--third);
 }
 
+/* nav right */
 .chinese{
-    padding-right: 10px;
     font-family: var(--chinese-font);
     font-weight: var(--font-weight-light);
+}
+
+.icon{
+    padding-left: 30px;
 }

@@ -13,6 +13,7 @@
 @import url("../components/shadow.css");
 @import url("../components/borders.css");
 @import url("../components/cards.css");
+@import url("../components/footer.css");
 
 body{
     font-family: var(--default-font);
@@ -57,7 +58,7 @@ p{
     font-weight: var(--font-weight-regular);
 }
 
-p .body-light{
+.body-light{
     font-family: var(--default-font);
     font-size: var(--font-size-p);
     font-weight: var(--font-weight-light);
@@ -72,5 +73,4 @@ a{
 /* icons */
 .icon{
     height: 22.05px;
-    padding: 0px 20px;
 }
