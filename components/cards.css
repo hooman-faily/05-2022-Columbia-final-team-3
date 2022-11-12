@@ -4,20 +4,37 @@
     display: block;
 }
 
-.card img{
+
+.card1Content{
+    margin: 10px 50px;
+    justify-content: space-between;
+    height: 100%;
+    background: transparent;
+    border: none;
+}
+.card1Content .cardImg{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card1Content .cardImg img{
+    max-height: 250px;
+    object-fit: contain;
     width: 100%;
 }
 
-.card1{
-    margin: 10px 50px;
-}
+
 @media only screen and (max-width: 1200px) {
-    .card1{
-        margin: 10px 30px;
+    .card1Content{
+        margin: 10px 25px;
     }
   }
 @media only screen and (max-width: 992px) {
-    .card1{
-        margin: 10px 0;
+    .card1Content{
+        margin: 10px 0px;
+    }
+    .card1Content .cardImg{
+        height: 200px;
     }
   }
