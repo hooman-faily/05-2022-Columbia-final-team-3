@@ -1,11 +1,11 @@
 .shadow-sm{
     box-shadow: var(--shadow-sm) rgba(var(--gray), var(--alpha-low)) !important;
 }
-.shadow-lg{
-    box-shadow: var(--shadow-lg) rgba(var(--gray), var(--alpha-low)) !important;
-}
 .shadow{
-    box-shadow: var(--shadow-regular) rgba(var(--gray), var(--alpha-low)) !important;
+    box-shadow: var(--shadow-btn);
+}
+.shadow-lg{
+    box-shadow: var(--shadow-btn-lg);
 }
 
 .shadow-sm-primary{
