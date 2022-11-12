@@ -8,3 +8,16 @@
     width: 100%;
 }
 
+.card1{
+    margin: 10px 50px;
+}
+@media only screen and (max-width: 1200px) {
+    .card1{
+        margin: 10px 30px;
+    }
+  }
+@media only screen and (max-width: 992px) {
+    .card1{
+        margin: 10px 0;
+    }
+  }
