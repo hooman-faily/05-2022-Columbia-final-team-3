@@ -35,6 +35,12 @@
         margin: 10px 0px;
     }
     .card1Content .cardImg{
-        height: 200px;
+        height: 270px;
+    }
+    .card1Content .cardImg img{
+        max-height: 270px;
+    }
+    .card1{
+        padding: 20px;
     }
   }
