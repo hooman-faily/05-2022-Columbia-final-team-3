@@ -11,8 +11,8 @@
     display: flex;
 }
 
-div#myRedDIV   {-webkit-order: 4;}
-div#myBlueDIV  {-webkit-order: 2;}
+div.col-lg-10   {-webkit-order: 1;}
+div.col-lg-2  {-webkit-order: 2;}
 
 
 
@@ -20,6 +20,8 @@ div#myBlueDIV  {-webkit-order: 2;}
     .navbar-nav{
         flex-direction: column;
     }
+    div.col-lg-10   {order: 2;}
+    div.col-lg-2  {order: 1;}
     .footer{
         margin: auto;
         text-align: center;

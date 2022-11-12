@@ -11,15 +11,23 @@ footer .socialMedia{
 footer .icon{
     padding: 0px;
 }
+
+
 @media only screen and (max-width: 992px) {
     footer{
         text-align: center;
     }
+    .footer-link{
+        display: block;
+    }
+
     footer a{
         padding: 10px;
     }
     footer .socialMedia{
         text-align: center;
-        margin-top: 20px;
     }
   }
+
+
+
