@@ -57,26 +57,31 @@
     align-content: flex-end;
 }
 
+.row {
+    justify-content: space-around;
+}
+
 .itemImage {
     display: inline-flex;
     align-items: flex-start;
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-right: 30px;
     margin-top: 50px;
     margin-bottom: 75px;
-    width: 428px;
-    height: 527px;
+    width: 500px;
+    height: auto;
     left: 170px;
     top: 332px;
+    background-image: url("../img/printspage/prints-1.jpg");
+    object-fit: contain;
+    background-repeat: no-repeat;
 }
 
 .itemDescription {
-    margin-left: 50px;
+    margin-left: 30px;
     margin-top: 80px;
-    margin-right: 50px;
     margin-bottom: 150px; 
-    width: 630px;
-    height: 597px;
+    width: 40%;
+    height: auto;
     left: 684px;
     top: 307px;
 }
@@ -157,3 +162,26 @@ footer .icon{
         text-align: center;
     }
   }
+
+  .itemImage {
+    display: inline-flex;
+    align-items: flex-start;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 75px;
+    width: 400px;
+    height: auto;
+    left: 170px;
+    top: 332px;
+}
+
+.itemDescription {
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 100px; 
+    width: 700px;
+    height: auto;
+    left: 684px;
+    top: 307px;
+}
+
