@@ -1,0 +1,127 @@
+.nav-link.active{
+    border-bottom: 2px solid var(--third);
+    font-weight: var(--font-weight-bold);
+}
+
+.nav-link{
+    color: var(--primary) !important;
+    font-weight: var(--font-weight-light);
+    font-size: var(--font-size-h2);
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid var(--third);
+    font-weight: var(--font-weight-bold);
+}
+
+/* dropdown */
+.dropdown-menu{
+    background-color: var(--background);
+}
+
+.dropdown-item{
+    color: var(--primary) !important;
+    font-weight: var(--font-weight-light);
+}
+
+.dropdown-item:hover{
+    background-color: transparent;
+    border-bottom: 2px solid var(--third);
+    font-weight: var(--font-weight-bold);
+}
+
+.dropdown-menu{
+    border-color: var(--third);
+}
+
+/* nav right */
+.chinese{
+    font-family: var(--chinese-font);
+    font-weight: var(--font-weight-light);
+}
+
+.icon{
+    padding-left: 30px;
+}
+
+.headerContainer{
+    height: auto;
+    width: auto;
+}
+
+.title2 {
+    font-family: 'Cabin Sketch', cursive;
+    color: #5d3747;
+    font-size: 4pc;
+    margin-top: 4pc;
+    align-content: flex-end;
+}
+
+.itemImage {
+    display: inline-flex;
+    align-items: flex-start;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    width: 428px;
+    height: 527px;
+    left: 170px;
+    top: 332px;
+}
+
+.itemDescription {
+    margin-left: 50px;
+    margin-top: 80px;
+    margin-right: 50px;
+    margin-bottom: 150px; 
+    width: 630px;
+    height: 597px;
+    left: 684px;
+    top: 307px;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    color: #5d3747;
+    font-size: 22px;
+    font-weight: 200;
+
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    color: #5d3747;
+    font-size: 20px;
+}
+
+h3 {
+    font-family: 'Inter', sans-serif;
+    color: #5d3747;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    color: #5d3747;
+    font-size: 16px;
+}
+
+.body-light {
+    font-family: 'Inter', sans-serif;
+    color: #5d3747;
+    font-size: 16px;
+}
+
+.body-sm {
+    font-family: 'Inter', sans-serif;
+    color: #5d3747;
+    font-size: 12px;
+}
+
+.body-sm-light {
+    font-family: 'Inter', sans-serif;
+    color: #5d3747;
+    font-size: 12px;
+}
