@@ -1,15 +1,17 @@
 footer{
     margin-top: 100px;
 }
+.footer-link{
+    padding-right: 20px;
+}
 footer a{
-    padding: 20px;
     display: inline-block;
 }
 footer .socialMedia{
     text-align: right;
 }
 footer .icon{
-    padding: 0px;
+    padding-left: 20px;
 }
 
 
