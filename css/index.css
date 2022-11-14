@@ -1,0 +1,18 @@
+.hero{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.hero-textLeft .display{
+    color: var(--secondary);
+}
+
+.hero-textRight{
+    text-align: right;
+}
+
+.hero-textRight button{
+    margin-top: 50px;
+}

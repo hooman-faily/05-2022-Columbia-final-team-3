@@ -3,6 +3,7 @@
     box-shadow: var(--shadow-btn);
     border-radius: var(--border-radius);
     background-color: var(--third);
+    height: 2.75rem;
 }
 
 .btn-primary{
@@ -17,18 +18,18 @@
     box-shadow: var(--shadow-btn-lg);
 }
 
-.btn-link{
-   color: var(--color-primary);
-}
-
 .btn-primary:focus{
-    background-color: var(--color-primary-500);
+    background-color: var(--third-100);
     box-shadow: var(--shadow-btn) rgba(var(--primary), var(--alpha-low)) !important;
 }
 .btn-primary:active{
-    background-color: var(--color-primary-800);
+    background-color: var(--third-100);
 }
 
+.btn-link{
+    color: var(--color-primary);
+ }
+ 
 .btn-secondary{
     background-color: var(--color-secondary-700);
     border:none

@@ -14,6 +14,7 @@
 @import url("../components/borders.css");
 @import url("../components/cards.css");
 @import url("../components/footerV2.css");
+@import url("../css/index.css");
 
 body{
     font-family: var(--default-font);
@@ -22,16 +23,16 @@ body{
 }
 
 /* fonts */
-p .display{
+.display{
     font-family: var(--display-font);
     font-size: var(--font-size-display);
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-bold);
 }
 
-p .display-title{
+.display-title{
     font-family: var(--display-font);
     font-size: var(--font-size-display-title);
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-bold);
 }
 
 h1{

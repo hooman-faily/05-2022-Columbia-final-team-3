@@ -13,6 +13,10 @@ footer .socialMedia{
 footer .icon{
     padding-left: 20px;
 }
+footer a:hover{
+    font-weight: var(--font-weight-bold);
+    color: var(--primary);
+}
 
 
 @media only screen and (max-width: 992px) {
