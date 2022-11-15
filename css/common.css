@@ -72,6 +72,10 @@ p{
     font-weight: var(--font-weight-light);
 }
 
+.body-light:hover{
+    font-weight: var(--font-weight-bold);
+}
+
 /* <a tag> */
 a{
     text-decoration: none;
