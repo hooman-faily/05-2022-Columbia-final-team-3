@@ -91,17 +91,16 @@ body {
 }
 
 h1 {
-    font-family: 'Inter', sans-serif;
-    color: #5d3747;
-    font-size: 22px;
-    font-weight: 200;
+    font-family: var(--default-font);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-regular);
 
 }
 
 h2 {
-    font-family: 'Inter', sans-serif;
-    color: #5d3747;
-    font-size: 20px;
+    font-family: var(--default-font);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-regular);
 }
 
 h3 {

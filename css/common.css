@@ -14,7 +14,6 @@
 @import url("../components/borders.css");
 @import url("../components/cards.css");
 @import url("../components/footer.css");
-@import url("../components/detail.css");
 
 body{
     font-family: var(--default-font);
