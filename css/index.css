@@ -5,13 +5,8 @@
     align-items: center;
 }
 
-
-.slide-right {
-    overflow: hidden;
-    max-width: 500px
- }
  
- .slide-right p {
+.slide-right p {
     animation: 2s slide-right;
  }
  
@@ -22,6 +17,20 @@
  
      to {
         margin-left: 0%;
+     }
+  }
+
+.slide-left{
+    animation: 2s slide-left;
+ }
+ 
+ @keyframes slide-left {
+     from {
+        margin-right: -500px;
+     }
+ 
+     to {
+        margin-right: 0%;
      }
   }
 
