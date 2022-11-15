@@ -1,0 +1,37 @@
+.footer-link:hover{
+    border-bottom: none;
+}
+
+.navbar-nav{
+    flex-direction: row;
+
+}
+
+.footer{
+    display: flex;
+}
+
+div.col-lg-10   {-webkit-order: 1;}
+div.col-lg-2  {-webkit-order: 2;}
+
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-nav{
+        flex-direction: column;
+    }
+    div.col-lg-10   {order: 2;}
+    div.col-lg-2  {order: 1;}
+    .footer{
+        margin: auto;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .d-flex{
+        justify-content: space-evenly !important;
+    }
+    .icon{
+        padding-left: 0;
+    }
+    
+  }

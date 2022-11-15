@@ -1,0 +1,85 @@
+/* Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* Chinese Font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+/* Display Font */
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
+/* Free  font-awesome 6.2*/
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+/* components*/
+@import url("./variables.css");
+@import url("../components/Chinese/buttons.css");
+@import url("../components/nav.css");
+@import url("../components/shadow.css");
+@import url("../components/borders.css");
+@import url("../components/cards.css");
+@import url("../components/footerV2.css");
+@import url("../css/index.css");
+@import url("../css/prints.css");
+@import url("../css/detailV2.css");
+
+body{
+    font-family: var(--chinese-font);
+    color: var(--primary) !important;
+    background-color: var(--background);
+}
+
+/* fonts */
+.display{
+    font-family: var(--chinese-font);
+    font-size: var(--font-size-display);
+    font-weight: var(--font-weight-bold);
+}
+
+.display-title{
+    font-family: var(--chinese-font);
+    font-size: var(--font-size-display-title);
+    font-weight: var(--font-weight-bold);
+}
+
+.display-title-light{
+    font-family: var(--chinese-font);
+    font-size: var(--font-size-display-title);
+    font-weight: var(--font-weight-regular);
+}
+
+h1{
+    font-family: var(--chinese-font);
+    font-size: var(--font-size-h1);
+    font-weight: var(--font-weight-regular);
+}
+
+h2{
+    font-family: var(--chinese-font);
+    font-size: var(--font-size-h2);
+    font-weight: var(--font-weight-regular);
+}
+
+h3{
+    font-family: var(--chinese-font);
+    font-size: var(--font-size-h3);
+    font-weight: var(--font-weight-light);
+}
+
+p{
+    font-family: var(--chinese-font);
+    font-size: var(--font-size-p);
+    font-weight: var(--font-weight-regular);
+}
+
+.body-light{
+    font-family: var(--chinese-font);
+    font-size: var(--font-size-p);
+    font-weight: var(--font-weight-light);
+}
+
+/* <a tag> */
+a{
+    text-decoration: none;
+    color: var(--primary);
+}
+
+/* icons */
+.icon{
+    height: 22.05px;
+}

@@ -1,0 +1,88 @@
+.btn{
+    padding: 10px 20px;
+    box-shadow: var(--shadow-btn);
+    border-radius: var(--border-radius);
+    background-color: var(--third);
+    height: 2.75rem;
+}
+
+/* primary */
+.btn-primary{
+    background-color: var(--third);
+    border:none;
+    color: var(--primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--third-100);
+    color: var(--primary);
+    box-shadow: var(--shadow-btn-lg);
+}
+
+.btn-primary:focus{
+    background-color: var(--third-100);
+    box-shadow: var(--shadow-btn) rgba(var(--primary), var(--alpha-low)) !important;
+}
+.btn-primary:active{
+    background-color: var(--third-100);
+}
+
+/* outline */
+.btn-outline{
+    background-color: transparent;
+    border-color: var(--primary);
+    color: var(--primary);
+    box-shadow: none;
+}
+
+
+
+
+
+
+.btn-link{
+    color: var(--color-primary);
+ }
+ 
+.btn-secondary{
+    background-color: var(--color-secondary-700);
+    border:none
+}
+.btn-secondary:hover{
+    background-color: var(--color-secondary-500);
+}
+.btn-secondary:focus{
+    background-color: var(--color-secondary-500);
+    box-shadow: var(--shadow-btn) rgba(var(--secondary), var(--alpha-low)) !important;
+}
+.btn-secondary:active{
+    background-color: var(--color-secondary-800);
+}
+
+
+/* outline*/
+.btn-outline-primary{
+    border-color: var(--color-primary-700);
+    color: var(--color-primary-700);
+}
+.btn-outline-primary:hover, .btn-outline-primary:focus{
+    background-color: var(--color-primary-500);
+    color: var(--color-white);
+}
+.btn-outline-primary:active{
+    background-color: var(--color-primary-800);
+    color: var(--color-white);                      
+}
+
+.btn-outline-secondary{
+    border-color: var(--color-secondary-700);
+    color: var(--color-secondary-700);
+}
+.btn-outline-secondary:hover, .btn-outline-secondary:focus{
+    background-color: var(--color-secondary-500);
+    color: var(--color-white);
+}
+.btn-outline-secondary:active{
+    background-color: var(--color-secondary-800);
+    color: var(--color-white);                      
+}
