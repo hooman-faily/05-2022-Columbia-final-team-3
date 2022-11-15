@@ -77,6 +77,9 @@ a{
     text-decoration: none;
     color: var(--primary);
 }
+a:hover{
+    color: var(--secondary);
+}
 
 /* icons */
 .icon{
