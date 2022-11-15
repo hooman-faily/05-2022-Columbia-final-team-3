@@ -2,12 +2,15 @@
     display:flex;
     justify-content: space-between;
     align-items:baseline;
-}
-.title2 {
-    font-family: 'Cabin Sketch', cursive;
-    color: #5d3747;
-    font-size: 4pc;
-    margin-top: 4pc;
-    align-content: flex-end;
     margin-top: 100px;
 }
+
+@media screen and (max-width: 576px) {
+    .title p{
+        font-size: 3rem;
+    }
+    .title{
+        margin-top: 50px;
+    }
+
+  }

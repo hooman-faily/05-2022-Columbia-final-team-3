@@ -16,6 +16,7 @@
 @import url("../components/footerV2.css");
 @import url("../css/index.css");
 @import url("../css/prints.css");
+@import url("../css/detailV2.css");
 
 body{
     font-family: var(--default-font);
@@ -27,10 +28,16 @@ body{
 .display{
     font-family: var(--display-font);
     font-size: var(--font-size-display);
-    font-weight: var(--font-weight-regular);
+    font-weight: var(--font-weight-bold);
 }
 
 .display-title{
+    font-family: var(--display-font);
+    font-size: var(--font-size-display-title);
+    font-weight: var(--font-weight-bold);
+}
+
+.display-title-light{
     font-family: var(--display-font);
     font-size: var(--font-size-display-title);
     font-weight: var(--font-weight-regular);
