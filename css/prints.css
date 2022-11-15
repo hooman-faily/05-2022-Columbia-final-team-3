@@ -1,8 +1,13 @@
-.display-title{
-    margin-top: 100px;
-}
 .title{
     display:flex;
     justify-content: space-between;
     align-items:baseline;
+}
+.title2 {
+    font-family: 'Cabin Sketch', cursive;
+    color: #5d3747;
+    font-size: 4pc;
+    margin-top: 4pc;
+    align-content: flex-end;
+    margin-top: 100px;
 }
