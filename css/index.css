@@ -5,6 +5,9 @@
     align-items: center;
 }
 
+.preview h1{
+    margin-bottom: 50px;
+}
  
 .slide-right p {
     animation: 2s slide-right;
