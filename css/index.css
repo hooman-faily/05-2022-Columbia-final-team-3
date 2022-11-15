@@ -5,6 +5,27 @@
     align-items: center;
 }
 
+
+.slide-right {
+    overflow: hidden;
+    max-width: 500px
+ }
+ 
+ .slide-right p {
+    animation: 2s slide-right;
+ }
+ 
+ @keyframes slide-right {
+     from {
+        margin-left: -500px;
+     }
+ 
+     to {
+        margin-left: 0%;
+     }
+  }
+
+
 .hero-textLeft .display{
     color: var(--secondary);
 }

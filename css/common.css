@@ -36,6 +36,12 @@ body{
     font-weight: var(--font-weight-bold);
 }
 
+.display-title-light{
+    font-family: var(--display-font);
+    font-size: var(--font-size-display-title);
+    font-weight: var(--font-weight-light);
+}
+
 h1{
     font-family: var(--default-font);
     font-size: var(--font-size-h1);
