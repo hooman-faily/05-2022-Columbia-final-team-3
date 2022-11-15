@@ -49,7 +49,7 @@
     width: auto;
 }
 
-.title2 {
+.detailTitle2 {
     font-family: 'Cabin Sketch', cursive;
     color: #5d3747;
     font-size: 4pc;
@@ -65,7 +65,7 @@ body {
     background-color: #F9FAFF;
 }
 
-.printImage {
+.detailImage {
     display: inline-flex;
     align-items: flex-start;
     margin-right: 10px;
@@ -80,7 +80,7 @@ body {
     background-repeat: no-repeat;
 }
 
-.printDescription {
+.detailDescription {
     margin-left: 10px;
     margin-top: 60px;
     margin-bottom: 150px; 
@@ -167,7 +167,7 @@ footer .icon{
     }
   }
 
-  .printImage {
+  .detailImage {
     display: inline-flex;
     align-items: flex-start;
     margin-right: 10px;
@@ -179,7 +179,7 @@ footer .icon{
     top: 332px;
 }
 
-.printDescription {
+.detailDescription {
     margin-left: 10px;
     margin-top: 50px;
     margin-bottom: 100px; 
