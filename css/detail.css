@@ -57,7 +57,7 @@
     align-content: flex-end;
 }
 
-.detailRow {
+.row {
     justify-content: space-around;
 }
 
