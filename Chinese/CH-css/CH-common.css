@@ -79,6 +79,11 @@ a{
     color: var(--primary);
 }
 
+a:hover{
+    color: var(--secondary);
+}
+
+
 /* icons */
 .icon{
     height: 22.05px;
