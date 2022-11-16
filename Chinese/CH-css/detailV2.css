@@ -1,0 +1,20 @@
+.detail{
+    justify-content: space-around;
+    margin-top: 50px;
+    align-items: center
+}
+
+.buttons{
+    display: flex;
+    margin: 20px 0px;
+}
+
+.qty{
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 991px) {
+    .text{
+        margin-top: 50px;
+    }
+  }

@@ -1,0 +1,16 @@
+.title{
+    display:flex;
+    justify-content: space-between;
+    align-items:baseline;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    .title p{
+        font-size: 3rem;
+    }
+    .title{
+        margin-top: 50px;
+    }
+
+  }

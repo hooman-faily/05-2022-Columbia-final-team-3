@@ -8,15 +8,15 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
 /* components*/
 @import url("./variables.css");
-@import url("../components/Chinese/buttons.css");
-@import url("../components/nav.css");
-@import url("../components/shadow.css");
-@import url("../components/borders.css");
-@import url("../components/cards.css");
-@import url("../components/footerV2.css");
-@import url("../css/index.css");
-@import url("../css/prints.css");
-@import url("../css/detailV2.css");
+@import url("../CH-components/buttons.css");
+@import url("../CH-components/nav.css");
+@import url("../CH-components/shadow.css");
+@import url("../CH-components/borders.css");
+@import url("../CH-components/cards.css");
+@import url("../CH-components/footerV2.css");
+@import url("../CH-css/index.css");
+@import url("../CH-css/prints.css");
+@import url("../CH-css/detailV2.css");
 
 body{
     font-family: var(--chinese-font);
