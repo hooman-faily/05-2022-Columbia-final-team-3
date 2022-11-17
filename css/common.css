@@ -92,7 +92,6 @@ a:hover{
     display: inline-flex;
     align-items: flex-start;
     margin-right: 10px;
-    margin-top: 50px;
     margin-bottom: 75px;
     width: 500px;
     height: auto;
@@ -109,4 +108,8 @@ a:hover{
     padding-right: 10px;
     height: auto;
 
+}
+@media only screen and (max-width: 438px) {
+  
+ 
 }
