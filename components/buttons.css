@@ -35,10 +35,28 @@
     box-shadow: none;
 }
 
+.detail-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    justify-content: space-evenly;
+}
 
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
 
-
-
+.btn-primary-detail {
+    background-color: var(--third);
+    border: none;
+    color: var(--primary);
+    width: 70%;
+    margin-left: 10px;
+}
 
 .btn-link{
     color: var(--color-primary);

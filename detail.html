@@ -13,12 +13,13 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/detail.css">
+    <link rel="stylesheet" href="./css/common.css">
     <title>Product Details</title>
   </head>
    
   <body>
-     <nav class="navbar navbar-expand-lg navbar-light">
+     <!-- nav starts -->
+    <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand" href="#"> <img src="../img/icon/logo.png" alt="logo"> </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +39,7 @@
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li><a class="dropdown-item" href="#">Books</a></li>
-                  <li><a class="dropdown-item" href="#">Prints</a></li>
+                  <li><a class="dropdown-item" href="../prints.html">Prints</a></li>
                   <li><a class="dropdown-item" href="#">Photographs</a></li>
                   <li><a class="dropdown-item" href="#">Mail Art</a></li>
                   <li><a class="dropdown-item" href="#">Stationery</a></li>
@@ -53,34 +54,47 @@
             </ul>
             <div class="d-flex">
               <a href="#"><h2 class="chinese">中</h2></a>
-              <a href="#"><img class="icon" src="../img/icon/cart-shopping.svg" alt=""></a> 
-              <a href="#"><img class="icon" src="../img/icon/magnifying-glass.svg" alt=""></a>
+              <a href="#"><img class="icon" src="../img/icon/cart-shopping.svg" alt="shopping cart"></a> 
+              <a href="#"><img class="icon" src="../img/icon/magnifying-glass.svg" alt="search"></a>
             </div>
           </div>
         </div>
       </nav>
+      <!-- nav ends -->
         <div class="container">
-            <div class="headerContainer">
-                 <div class="detailTitle2">Prints / Motel California</div>
+            <div class="title">
+                <p class="display-title-light">Prints / Motel California</p>
             </div>
         </div>
         <div class="container">
-            <div class="row">
-                <div class="detailImage">
-                    <img src="./img/printspage/prints-1.jpg">
+            <div class="detail-row">
+                <div class="detailImage col-lg-3">
+                    <img src="./img/printspage/prints-1.jpg" class="img-fluid">
                 </div>
-                <div class="detailDescription">
-                    <h3>Motel California N01</h3></br>
-                    <h3>$45.00</h3></br>
+                <div class="detailDescription col-lg-5">
+                    <h3>Motel California N01</h3>
+                    <h3>$45.00</h3>
                     <p>Screenprints by Francis Van Maele and Antic-ham in 15 copies each</p>
                     <p>Size: 5x31 cm - Sirio 170 gr. paper </p>
                     <p>If several different prints are ordered we will refund the excess postage paid.</p>
-                </br>
-                    <p>Description:</p>
+                        <div class="button-row">
+                                <div class="dropdown">
+                                    <button class="btn btn-outline dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Qty:1
+                                    </button>
+                                    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                        <li><a class="dropdown-item" href="#">2</a></li>
+                                        <li><a class="dropdown-item" href="#">3</a></li>
+                                        <li><a class="dropdown-item" href="#">4</a></li>
+                                    </ul>
+                                </div>
+                                <a href="#" class="btn btn-primary btn-primary-detail">Purchase</a>
+                        </div>
+                    <p class="mt-3">Description:</p>
                     <p>These prints have been hand printed in silk screen in Ireland on Achill Island
                         in batches of 15 copies, numbered and signed in the summer 2019.
                     </p>
-                    <p>There are extra prints from the screenprinted book "MOTEL CALIFORNIA".</p></br>
+                    <p>There are extra prints from the screenprinted book "MOTEL CALIFORNIA".</p>
                 </div>
             </div>
         </div>
