@@ -87,3 +87,26 @@ a:hover{
 .icon{
     height: 22.05px;
 }
+
+.detailImage {
+    display: inline-flex;
+    align-items: flex-start;
+    margin-right: 10px;
+    margin-top: 50px;
+    margin-bottom: 75px;
+    width: 500px;
+    height: auto;
+    left: 170px;
+    top: 332px;
+    /* background-image: url("../img/printspage/prints-1.jpg"); */
+    object-fit: contain;
+    background-repeat: no-repeat;
+}
+
+.detailDescription {
+    margin-left: 10px;
+    margin-right: 30px;
+    padding-right: 10px;
+    height: auto;
+
+}
