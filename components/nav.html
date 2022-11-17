@@ -15,10 +15,10 @@
     <!-- nav starts -->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container">
-        <a class="navbar-brand" href="#"> <img src="../img/icon/logo.png" alt="logo"> </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <a class="navbar-brand" href="#"> <img src="../img/icon/logo.png" alt="logo"> </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -46,11 +46,16 @@
               <a class="nav-link" href="#">Contact Us</a>
             </li>
           </ul>
-          <div class="d-flex">
+          <div class="d-flex d-md-none d-lg-block">
             <a href="#"><h2 class="chinese">中</h2></a>
             <a href="#"><img class="icon" src="../img/icon/cart-shopping.svg" alt="shopping cart"></a> 
             <a href="#"><img class="icon" src="../img/icon/magnifying-glass.svg" alt="search"></a>
           </div>
+        </div>
+        <div class="d-flex d-none d-md-block d-lg-none">
+          <a href="#"><h2 class="chinese">中</h2></a>
+          <a href="#"><img class="icon" src="../img/icon/cart-shopping.svg" alt="shopping cart"></a> 
+          <a href="#"><img class="icon" src="../img/icon/magnifying-glass.svg" alt="search"></a>
         </div>
       </div>
     </nav>
