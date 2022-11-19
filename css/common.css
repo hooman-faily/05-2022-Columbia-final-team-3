@@ -16,7 +16,7 @@
 @import url("../components/footerV2.css");
 @import url("../css/index.css");
 @import url("../css/prints.css");
-@import url("../css/detailV2.css");
+/* @import url("../css/detailV2.css"); */
 
 body{
     font-family: var(--default-font);
