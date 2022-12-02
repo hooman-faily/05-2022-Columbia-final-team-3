@@ -36,11 +36,10 @@
 }
 
 
-
 .detail-row {
     display: flex;
     flex-wrap: wrap;
-    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-top: 50px;
     margin-right: calc(-.5 * var(--bs-gutter-x));
     margin-left: calc(-.5 * var(--bs-gutter-x));
     margin-bottom: calc(-1 * var(--bs-gutter-y)); 
@@ -57,8 +56,18 @@
     background-color: var(--third);
     border: none;
     color: var(--primary);
-    width: 75%;
+    /* width: 70%; */
     margin-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .btn-primary-detail {
+        background-color: var(--third);
+        border: none;
+        color: var(--primary);
+        margin-left: 10px;
+}
 }
 
 .btn-link{

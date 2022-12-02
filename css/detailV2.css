@@ -1,10 +1,10 @@
 .detail{
     justify-content: space-around;
-    margin-top: 50px;
+    margin-top: 0px;
     align-items: center
 }
 
-.buttons{
+.button {
     display: flex;
     margin: 20px 0px;
 }
